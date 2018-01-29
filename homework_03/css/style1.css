@@ -1,0 +1,92 @@
+body {
+  background: #dcbb9a;
+  color: #000; }
+
+#content {
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px; }
+  #content h1 {
+    text-align: center;
+    color: #893c00;
+    text-transform: capitalize; }
+  #content p {
+    padding-bottom: 5px; }
+  #content h2 {
+    color: #893c00; }
+  #content a {
+    color: #3D70A1; }
+  #content img {
+    border: 1px solid #893c00;
+    padding: 1px; }
+  #content .img-left {
+    float: left;
+    margin: 0 15px 10px 0; }
+  #content .img-right {
+    float: right;
+    margin: 0 0 15px 10px; }
+  #content .brief {
+    width: 380px;
+    background: #fadcba;
+    color: #000;
+    padding: 15px;
+    margin: 10px 10px 10px 0;
+    float: left; }
+  #content th {
+    background-color: #e0e0e0;
+    border-right: 1px solid #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: normal;
+    text-align: left;
+    color: #000;
+    padding-left: 15px; }
+  #content td {
+    border-bottom: 1px solid #e0e0e0;
+    height: 38px;
+    padding: 0 10px; }
+  #content table {
+    background-color: #fff;
+    border: none;
+    border-collapse: collapse; }
+    #content table caption {
+      text-align: right;
+      color: #000; }
+  #content fieldset {
+    border: 0px solid;
+    color: #808080;
+    padding: 0px; }
+    #content fieldset p {
+      text-transform: uppercase; }
+    #content fieldset input {
+      width: 99%;
+      height: 20px;
+      padding-left: 4px;
+      color: #808080;
+      margin: 5px 0 10px 0; }
+  #content .user-info {
+    width: 49%;
+    float: left; }
+  #content .user-name div:last-child {
+    margin-left: 15px; }
+  #content input[type="submit"] {
+    float: left;
+    width: 250px;
+    color: #3D70A1;
+    border: 1px solid #3D70A1;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 40px;
+    background: #fff; }
+  #content textarea {
+    width: 99%;
+    padding: 3px;
+    height: 150px; }
+
+html, body, div, span, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }

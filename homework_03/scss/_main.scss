@@ -1,0 +1,127 @@
+$contentBackground: null !default;
+
+@mixin headingStyle($contentHeading,$headingUpperCase){
+    color: $contentHeading;
+    text-transform: $headingUpperCase;
+}
+
+body {
+    background: $bodyBackground;
+    color: $textColor;
+}
+
+#content {
+  width: 960px;
+  margin: 0 auto;
+  background: $contentBackground;
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+    @include headingStyle($contentHeading,$headingUpperCase);
+  }
+
+  p {
+    padding-bottom: 5px;
+  }
+
+  h2{
+    color: $contentHeading;
+  }
+  a {
+    color: $borderColor;
+  }
+  img {
+    border: 1px solid $contentHeading;
+    padding: 1px;
+  }
+  .img-left {
+    float: left;
+    margin: 0 15px 10px 0;
+  }
+
+  .img-right {
+    float: right;
+    margin: 0 0 15px 10px;
+  }
+
+  .brief {
+    width: $briefWidth;
+    background: $briefColor;
+    color: #000;
+    padding: 15px;
+    margin: 10px 10px 10px 0;
+    float: left;
+  }
+
+  th {
+    background-color: $thColor;
+    border-right: 1px solid #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: normal;
+    text-align: left;
+    color: #000;
+    padding-left: 15px;
+  }
+  td {
+    border-bottom: 1px solid $thColor;
+    height: 38px;
+    padding: 0 10px;
+  }
+
+  table {
+    background-color: $tableBack;
+    border: none;
+    border-collapse: collapse;
+
+    caption {
+      text-align: right;
+      color: $captionColor;
+    }
+  }
+
+  fieldset {
+    border: 0px solid;
+    color: $fieldsetColor;
+    padding: 0px;
+
+    p {
+      text-transform: uppercase;
+    }
+    input {
+      width: 99%;
+      height: 20px;
+      padding-left: 4px;
+      color: #808080;
+      margin: 5px 0 10px 0;
+    }
+  }
+
+  .user-info {
+    width: 49%;
+    float: left;
+  }
+
+  .user-name div:last-child{
+    margin-left: 15px;
+  }
+
+  input[type="submit"] {
+    float: left;
+    width: 250px;
+    color: $borderColor;
+    border: 1px solid $borderColor;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 40px;
+    background: $contentBackground;
+  }
+
+  textarea {
+    width: 99%;
+    padding: 3px;
+    height: 150px;
+  }
+}
