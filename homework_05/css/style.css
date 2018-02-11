@@ -51,7 +51,6 @@ li a:hover {
     background-size: cover;
     padding: 4% 0 10% 0;
     margin-top: 45px;
-    margin-bottom: 150px;
 }
 .banner blockquote {
     max-width: 400px;
@@ -65,7 +64,6 @@ li a:hover {
 }
 .grid-container {
     display: grid;
-    height: 250px;
     align-content: center;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
@@ -91,7 +89,6 @@ footer {
     height: 35px;
     padding: 20px 0;
     background-color: #39C2D7;
-    margin-top: 160px;
 }
 .inner-footer {
     max-width: 880px;
@@ -130,7 +127,6 @@ footer {
    }
     .banner {
         padding: 10% 0 25% 0;
-        margin-bottom: 230px;
    }
     .banner blockquote {
         max-width: 475px;
@@ -152,7 +148,6 @@ footer {
         text-align: left;
    }
     footer {
-        margin-top: 230px;
         padding-bottom: 30px;
    }
     .inner-footer {
@@ -197,9 +192,6 @@ footer {
         background-color: #EEEEEE;
         line-height: 28px;
    }
-    .banner {
-        margin-bottom: 850px;
-   }
     .banner blockquote {
         margin: 300px 5% 0 11%;
         padding: 15px;
@@ -220,7 +212,6 @@ footer {
         width: 90%;
    }
     footer {
-        margin-top: 850px;
         height: 115px;
    }
     .inner-footer a {
