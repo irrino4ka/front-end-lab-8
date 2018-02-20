@@ -31,4 +31,4 @@ function decypherPhrase (obj, phrase) {
 }
 
 var charactersMap = {a: 'o', c: 'd', t: 'g'}
-decypherPhrase(charactersMap, 'kiddy dog');
+decypherPhrase(charactersMap, 'kiggy dog');
