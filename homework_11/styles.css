@@ -1,0 +1,34 @@
+/* Your styles goes here */
+
+ul li {
+    list-style-type: none;
+}
+.folder {
+    color: #e9c225;
+}
+.file {
+    color: #666;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 0;
+}
+p:hover {
+    background-color: #999;
+    cursor: pointer;
+}
+
+div:not(.open):not(#root) > ul {
+    display: none;
+}
+
+div span {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+}
